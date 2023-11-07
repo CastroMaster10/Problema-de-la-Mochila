@@ -1,2 +1,9 @@
-# Problema-de-la-Mochila
-hola
+## The Knapsack Problem
+
+[The Knapsack problem is a classic problem in combinatorial optimization^1^. It involves determining which items to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible^1^. The problem often arises in resource allocation where decision-makers have to choose from a set of non-divisible projects or tasks under a fixed budget or time constraint^1^. The most common problem being solved is the 0-1 Knapsack problem, which restricts the number of copies of each kind of item to zero or one^2^.]()
+
+## The Greedy Heuristic
+
+[A Greedy heuristic is a problem-solving heuristic that makes the locally optimal choice at each stage](https://en.wikipedia.org/wiki/Greedy_algorithm)[^3^](https://en.wikipedia.org/wiki/Greedy_algorithm). [Greedy algorithms are the most used and simplest way to solve optimization problems](https://en.wikipedia.org/wiki/Greedy_algorithm)[^3^](https://en.wikipedia.org/wiki/Greedy_algorithm). [The main idea is to get an optimal result at each stage using heuristics](https://en.wikipedia.org/wiki/Greedy_algorithm)[^3^](https://en.wikipedia.org/wiki/Greedy_algorithm). [In many problems, a greedy strategy does not produce an optimal solution, but a greedy heuristic can yield locally optimal solutions that approximate a globally optimal solution in a reasonable amount of time](https://en.wikipedia.org/wiki/Greedy_algorithm)[^3^](https://en.wikipedia.org/wiki/Greedy_algorithm).
+
+[For example, in the context of the Knapsack problem, a greedy heuristic might involve choosing the item with the highest value-to-weight ratio that fits in the remaining capacity of the knapsack at each step](https://www.geeksforgeeks.org/introduction-to-knapsack-problem-its-types-and-how-to-solve-them/)[^2^](https://www.geeksforgeeks.org/introduction-to-knapsack-problem-its-types-and-how-to-solve-them/). [However, it’s important to note that this approach does not always yield the optimal solution](https://www.geeksforgeeks.org/introduction-to-knapsack-problem-its-types-and-how-to-solve-them/)[^2^](https://www.geeksforgeeks.org/introduction-to-knapsack-problem-its-types-and-how-to-solve-them/).
