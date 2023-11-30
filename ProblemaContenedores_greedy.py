@@ -25,7 +25,7 @@ def carguero_problema(capacidad,items):
     for item in items:
         if capacidad >= item.weight:
             #Si tenemos capacidad de cargar el contenedor, lo hacemos
-            totalProfit += item.profit
+            totalProfit += item.profit * item.weight
             capacidad -= item.weight
             iteraciones += 1
         else:
